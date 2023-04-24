@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a class="logo" href="index.html">
+            <img src="img/logo.svg" alt="logotype"></a>
+        <ul class="menu">
+            <li class="menu__list"><a class="menu__link" href="index.html"> Главная </a></li>
+            <li class="menu__list"><a class="menu__link menu__link_active" href="students.html"> Cтуденты </a></li>
+            <li class="menu__list"><a class="menu__link" href="about.html"> О курсе </a></li>
+            <li class="menu__list"><a class="menu__link" href="contacts.html"> Контакты </a></li>
+        </ul>
+        <button class="button">Войти</button>
+    </header>
+    <main class="content-students">
+        <h2 class="title">Студенты потока 08.02.2020 &#128103;&#128113;</h2>
+        <div class="students">
+            <div class="student">
+                <img width="200" height="270" src="img/student.jpg" alt="студент 1">
+                <p class="student__name">Василий Иванов</p>
+            </div>
+            <div class="student">
+                <img width="200" height="270" src="img/student.jpg" alt="студент 2">
+                <p class="student__name">Мария Александрова</p>
+                <p class="student__new">новичок</p>
+            </div>
+            <div class="student">
+                <img width="200" height="270" src="img/student.jpg" alt="студент 3">
+                <p class="student__name">Мария
+                    Александрова</p>
+            </div>
+            <div class="student">
+                <img width="200" height="270" src="img/student.jpg" alt="студент 4">
+                <p class="student__name">Василий Иванов</p>
+            </div>
+            <div class="student">
+                <img width="200" height="270" src="img/student.jpg" alt="студент 5">
+                <p class="student__name">Василий Иванов</p>
+            </div>
+
+        </div>
+
+
+    </main>
+    <footer class="footer">
+        <p class="footer_text">2022 &#169;
+            <a class="footer_part" href="#"> учебный центр </a>
+        </p>
+    </footer>
+    <div class="modal__overlay">
+        <form class="modal__form">
+            <h3 class="modal__title">Войти на сайт</h3>
+            <input class="modal__input" placeholder="Логин" type="text" />
+            <input class="modal__input" placeholder="Пароль" type="password" />
+            <button class="button" type="submit">Войти</button>
+            <button class="close-button" type="button"></button>
+        </form>
+    </div>
+
+    <script src="./script.js"></script>
+
+
+</body>
+
+</html>
