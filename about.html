@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="img/photo.png.png" type="image/png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a class="logo" href="index.html">
+            <img src="img/logo.svg" alt="logotype"></a>
+        <ul class="menu">
+            <li class="menu__list"><a class="menu__link" href="index.html"> Главная </a></li>
+            <li class="menu__list"><a class="menu__link" href="students.html"> Cтуденты </a></li>
+            <li class="menu__list"><a class="menu__link menu__link_active" href="about.html"> О курсе </a></li>
+            <li class="menu__list"><a class="menu__link" href="contacts.html"> Контакты </a></li>
+        </ul>
+        <button class="button">Войти</button>
+    </header>
+    <main class="content-about">
+        <h2 class="course">О курсе &#128241;</h2>
+        <h3 class="about_us">Посмотрите видео о нас</h3>
+        <video class="vide__about_us" src="img/video-cat.mp4" controls="video">video</video>
+    </main>
+    <footer class="footer">
+        <p class="footer_text">2022 &#169;
+            <a class="footer_part" href="#"> учебный центр </a>
+        </p>
+    </footer>
+    <div class="modal__overlay">
+        <form class="modal__form">
+            <h3 class="modal__title">Войти на сайт</h3>
+            <input class="modal__input" placeholder="Логин" type="text" />
+            <input class="modal__input" placeholder="Пароль" type="password" />
+            <button class="button" type="submit">Войти</button>
+            <button class="close-button" type="button"></button>
+        </form>
+    </div>
+
+    <script src="./script.js"></script>
+
+
+</body>
+
+</html>
